@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Vollkorn|Raleway');
+
+
+.navbar {
+    background-color: violet;
+    border-bottom: solid 3px black;
+    top: 0;
+    padding: 2%;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-item a {
+    align-items: flex-end;
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+    font-family: 'Great Vibes', cursive;
+    border: solid red;
+    color: yellow;
+    margin: 10%;
+    padding: 1%;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+
+}
+
+ol,
+ul,
+h2,
+p {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 30px;
+    font-family: 'Raleway', serif;
+    color: yellow;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url("https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&h=350")no-repeat fixed;
+    background-size: cover;
+}
+
+
+footer {
+    bottom: 0;
+    background-color: violet;
+    border-top: solid 3px black;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+a:link {
+    font-size: 2em;
+    text-decoration: none;
+    color: yellow;
+
+}
+
+a:hover {
+    color: red;
+}
+
+a:vistited {
+    color: yellow;
+}
+
+img {
+    display: inline;
+}
+
+.icon {
+    color: red;
+}

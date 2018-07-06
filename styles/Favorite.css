@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Vollkorn|Raleway');
+
+.navbar {
+  background-color: violet;
+  border-bottom: solid 3px black;
+  top: 0;
+  padding: 2%;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: relative;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item a {
+  align-items: flex-end;
+  color: yellow;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7em;
+  font-family: 'Great Vibes', cursive;
+  border: solid red;
+  color: yellow;
+  margin: 10%;
+  padding: 1%;
+}
+
+.thumbnail-gallery {
+  border: solid 10px firebrick;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+div {
+  /*   padding:.25 0em; */
+  width: 25%;
+  text-align: center;
+  margin: .5em;
+  border: solid darkblue .25em;
+}
+
+img {
+  width: 100%;
+}
+
+.album1 {
+  background-color: grey;
+  color: white;
+}
+
+.album2 {
+  background-color: gold;
+  color: white;
+
+}
+
+.album3 {
+  background-color: green;
+  color: white;
+}
+
+.album4 {
+  background-color: red;
+  color: white;
+}
+
+.album5 {
+  background-color: darkgrey;
+  color: white;
+}
+
+body {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+}
+
+
+footer {
+  background-color: violet;
+  border-top: solid 3px yellow;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+a:link {
+  font-size: 2em;
+  text-decoration: none;
+  color: yellow;
+
+}
+
+a:hover {
+  color: red;
+}
+
+a:vistited {
+  color: yellow;
+}
+
+img {
+  display: inline;
+}
+
+.icon {
+  color: red;
+}
