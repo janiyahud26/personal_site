@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Vollkorn|Raleway');
 
 
-.navbar {
+nav {
   background-color: violet;
   border-bottom: solid 3px black;
   top: 0;
@@ -87,4 +87,67 @@ img {
 
 .icon {
   color: red;
+}
+body {
+  margin:0;
+  width:100%;
+}
+
+nav {
+  width:100%;
+  top:0;
+  margin:0;
+  position:fixed;
+}
+ul.nav {
+  margin:0;
+  list-style-type:none;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  
+}
+
+ul.nav li {
+  font-size: 2em;
+  padding:0.5em;
+}
+
+.nav a { 
+  text-decoration:none;
+  color:white;
+}
+
+
+.icon {
+  display:none;
+}
+.nav button {
+  background:none;
+  color:white;
+  border:none;
+  font-size:1em;
+  padding:0;
+}
+
+@media screen and (max-width:1035px) {
+  
+  ul.nav li:not(:first-child){
+    display:none;
+  }
+    ul.nav {
+      flex-direction:column;
+    }
+    
+    ul.nav li.icon{
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+  ul.nav.responsive li{
+    display:block;
+  }
 }

@@ -17,14 +17,13 @@
   color: yellow;
 }
 
-h1 {
-  text-align: center;
-  font-size: 7em;
-  font-family: 'Great Vibes', cursive;
-  border: solid red;
+ul{
+ text-align: center;
+  list-style-position: inside;
+  font-size: 30px;
+  font-family: 'Raleway', serif;
   color: yellow;
-  margin: 10%;
-  padding: 1%;
+
 }
 
 .thumbnail-gallery {
@@ -74,6 +73,11 @@ img {
   color: white;
 }
 
+.album6 {
+  background-color:#2F0903;
+  color: white;
+}
+
 body {
   background-color: #000000;
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
@@ -111,4 +115,63 @@ img {
 
 .icon {
   color: red;
+}
+
+nav {
+  width:100%;
+  top:0;
+  margin:0;
+  position:fixed;
+}
+ul.nav {
+  margin:0;
+  list-style-type:none;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  
+}
+
+ul.nav li {
+  font-size: 2em;
+  padding:0.5em;
+}
+
+.nav a { 
+  text-decoration:none;
+  color:white;
+}
+
+
+.icon {
+  display:none;
+}
+.nav button {
+  background:none;
+  color:white;
+  border:none;
+  font-size:1em;
+  padding:0;
+}
+
+@media screen and (max-width:1035px) {
+  
+  ul.nav li:not(:first-child){
+    display:none;
+  }
+    ul.nav {
+      flex-direction:column;
+    }
+    
+    ul.nav li.icon{
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+  ul.nav.responsive li{
+    display:block;
+  }
 }
